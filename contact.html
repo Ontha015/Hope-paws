@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Hope Paws</title>
+  <meta name="description" content="Contact Hope Paws — enquiries, volunteering, adoption, sponsorship.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Hope Paws Logo" class="logo">
+      <span>Hope Paws</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="our-work.html">Our Work</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="header-socials">
+      <a href="https://facebook.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero fade-in">
+    <div class="hero-text">
+      <h1>Contact Hope Paws <span class="paw">🐾</span></h1>
+      <p>Questions about volunteering, donating or adopting? Send us a message.</p>
+    </div>
+  </section>
+
+  <section class="form-section fade-in">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm" class="styled-form" action="mailto:02obed11@gmail.com" method="post" enctype="text/plain" novalidate>
+      <label for="c_name">Full name</label>
+      <input id="c_name" name="name" type="text" required>
+
+      <label for="c_email">Email address</label>
+      <input id="c_email" name="email" type="email" required>
+
+      <label for="c_subject">Subject</label>
+      <input id="c_subject" name="subject" type="text" required>
+
+      <label for="c_message">Message</label>
+      <textarea id="c_message" name="message" rows="5" required></textarea>
+
+      <button type="submit"><i class="fa fa-paper-plane"></i> Send Message</button>
+      <div class="response" id="responseMessage" role="status" aria-live="polite"></div>
+    </form>
+  </section>
+
+  <!-- GOOGLE MAP EMBED (Pretoria, South Africa) -->
+  <section class="map-section fade-in">
+    <h2>Our Location</h2>
+    <div class="map-embed">
+      <iframe
+        src="https://www.google.com/maps?q=Pretoria,+South+Africa&output=embed"
+        width="100%" height="360" style="border:0;border-radius:8px;" allowfullscreen=""
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+</main>
+
+<section class="hours-section fade-in">
+  <h2>Operating Hours</h2>
+  <ul style="list-style:none; padding:0; font-size:1.1rem;">
+    <li><strong>Monday – Friday:</strong> 08:00 AM – 17:00 PM</li>
+    <li><strong>Saturday:</strong> 09:00 AM – 14:00 PM</li>
+    <li><strong>Sunday & Public Holidays:</strong> Closed</li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+      <div>
+        <strong>Hope Paws</strong><br>
+        <small>Rescue • Care • Adopt</small><br>
+        <small>Email: 02obed11@gmail.com</small>
+      </div>
+      <div class="socials">
+        <a href="https://facebook.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+    <div style="margin-top:12px;">&copy; 2025 Hope Paws — All rights reserved</div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+<script src="js/forms.js" defer></script>
+</body>
+</html>

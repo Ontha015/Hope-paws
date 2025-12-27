@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Volunteer Day",
+    "date": "2025-10-01",
+    "category": "Volunteer",
+    "desc": "Join our weekend volunteer team and help care for animals."
+  },
+  {
+    "title": "Adoption Event",
+    "date": "2025-11-12",
+    "category": "Adoption",
+    "desc": "Find your new companion at our monthly adoption event."
+  },
+  {
+    "title": "Sponsor a Kennel",
+    "date": "2025-12-05",
+    "category": "Sponsorship",
+    "desc": "Support our rescue efforts by sponsoring a kennel."
+  }
+]

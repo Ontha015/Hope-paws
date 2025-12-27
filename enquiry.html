@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Enquiry — Hope Paws</title>
+  <meta name="description" content="Enquire about services, volunteering, sponsorship, or adoption with Hope Paws.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Hope Paws Logo" class="logo">
+      <span>Hope Paws</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="our-work.html">Our Work</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="enquiry.html" aria-current="page">Enquiry</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-socials">
+      <a href="https://facebook.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero fade-in">
+    <div class="hero-text">
+      <h1>Enquiry <span class="paw">🐾</span></h1>
+      <p>Enquire about services, volunteering, sponsorships, or adoption opportunities.</p>
+    </div>
+  </section>
+
+  <section class="form-section fade-in">
+    <h2>Submit an Enquiry</h2>
+    <form id="enquiryForm" class="styled-form" action="mailto:02obed11@gmail.com" method="post" enctype="text/plain" novalidate>
+      <label for="e_name">Full name</label>
+      <input id="e_name" name="name" type="text" required>
+
+      <label for="e_email">Email address</label>
+      <input id="e_email" name="email" type="email" required>
+
+      <label for="e_phone">Phone number</label>
+      <input id="e_phone" name="phone" type="tel" pattern="\+27[0-9]{9}" placeholder="+27XXXXXXXXX" required>
+
+      <label for="e_type">Enquiry type</label>
+      <select id="e_type" name="type" required>
+        <option value="">-- Select an option --</option>
+        <option value="services">Services</option>
+        <option value="volunteering">Volunteering</option>
+        <option value="sponsorship">Sponsorship</option>
+        <option value="adoption">Adoption</option>
+      </select>
+
+      <label for="e_details">Enquiry details</label>
+      <textarea id="e_details" name="details" rows="5" required></textarea>
+
+      <button type="submit"><i class="fa fa-paper-plane"></i> Submit Enquiry</button>
+      <div class="response" id="responseMessage" role="status" aria-live="polite"></div>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+      <div>
+        <strong>Hope Paws</strong><br>
+        <small>Rescue • Care • Adopt</small><br>
+        <small>Email: 02obed11@gmail.com</small>
+      </div>
+      <div class="socials">
+        <a href="https://facebook.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/hopepaws" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+    <div style="margin-top:12px;">&copy; 2025 Hope Paws — All rights reserved</div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+<script src="js/forms.js" defer></script>
+</body>
+</html>
